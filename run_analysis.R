@@ -1,4 +1,5 @@
 
+
 ###############################  STEP 1  ##########################################
 #########  Merges the training and the test sets to create one data set############
 
@@ -79,7 +80,9 @@ dim(all_data) # dim --> 10299rows 68columns ##
 
 ###############################  STEP 5  #########################################
 #################### Create a second, independent tidy data set ##################
-###### with the average of each variable for each activity and each subject ######   
+###### with the average of each variable for each activity and each subject ###### 
+
+library(plyr)
 
 # 66 <- 68 columns but last two (activity & subject)
 tidy_data <- ddply(all_data, .(subject, activity), function(x) colMeans(x[, 1:66]))
