@@ -3,7 +3,7 @@
 This is the course project for the Getting and Cleaning Data Coursera course.
 The dataset being used is: Human Activity Recognition Using Smartphones
 
-CodeBook.md describes the variables, the data, and any information about the experimental study to clean up the data.
+CodeBook.md describes the data set.
 
 run_analysis.R contains all the code :
            Step 1. Merges the training and the test sets to create one data set.
