@@ -13,4 +13,4 @@ run_analysis.R contains all the code :
            Step 5. Creates a second, independent tidy data set with the average of each variable for each activity and                      each subject.
  
  
- This Tidy data set you can found it in this repository: tidy_data.txt
+ 
