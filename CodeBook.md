@@ -1,4 +1,4 @@
- * Information about the data set:
+* Information about the data set:
  
  ·The experiments have been carried out with a group of 30 volunteers (subject) 
 
